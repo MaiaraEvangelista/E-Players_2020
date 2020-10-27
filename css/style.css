@@ -4,7 +4,7 @@
     --background: #000000 ;
     --red: #C20000;
     --blue: #001F70;
-    --gradient: Linear-gradient( #000000  0% rgba(83, 83, 83, 0.5774) 25%,rgba(196, 196, 196, 0) 87.5%);
+    --gradient: Linear-gradient( #000000  0%, rgba(83, 83, 83, 0.5774) 25%,rgba(196, 196, 196, 0) 87.5%);
 
     --font:'Titillium Web', sans-serif;
 }
@@ -17,23 +17,83 @@
 }
 
 body{
-    background-color: var(--background);
+    font-size: 16px;
+    background-color: red;
     font-family: var(--font);
+    font-size: 16px;
 }
 
-@media screen and (max-width: 1199px){
+.header-top{
+    font-size: 40px;
+    width: 1366px;
+    height: 2em;
+    background-color:black;
+}
+
+.content{
+    width: 90%;
+    max-width: 75em;
+    height: 100%;
+    /*background-color: aqua;*/
+    margin: auto;
+}
+
+.flex-spbt-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.header-top img{
+    width: 70%;
+    max-width: 21.18em;
+}
+
+.menu{
+   width: 100%;
+   max-width: 50em;
+   height: 50;
+}
+
+.menu ul{
+    list-style-type: none;
+    
+}
+
+.menu a{
+    color: white;
+    font-size: 16px;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding:10px 50px;  
+    justify-content: flex-end;
+}
+
+.menu a:hover{
+    background-color: var(--red);
+    text-shadow: 0 0 20px white;
+    text-decoration: underline;
+}
+
+
+
+/*até 1199px*/
+@media screen and (max-width: 74.93em){
 
 }
 
-@media screen and (max-width: 991px){
+/*até 991*/
+@media screen and (max-width: 61.93em){
 
 }
 
-@media screen and (max-width: 767px){
-
+/*até 767*/
+@media screen and (max-width:47.93em){
+    
 }
 
-@media screen and (max-width: 576px){
+/*até 576*/
+@media screen and (max-width: 36em){
     
 }
 
