@@ -17,10 +17,11 @@
 }
 
 body{
+    height: 80px;
     font-size: 16px;
-    background-color: red;
+    background-color: black;
     font-family: var(--font);
-    font-size: 16px;
+   
 }
 
 .header-top{
@@ -57,7 +58,7 @@ body{
 
 .menu ul{
     list-style-type: none;
-    
+    padding-left: 08px;
 }
 
 .menu a{
@@ -75,6 +76,79 @@ body{
     text-decoration: underline;
 }
 
+.banner{
+    position: relative;
+}
+
+.banner-container{
+    width: 100%;
+    height: 37.5em;
+    /*background-color: rgba(127, 255, 212, 0.308);*/
+    position: absolute;
+    top: 0%;
+}
+
+.banner-content{
+    width: 95%;
+    height: 100%;
+    /*background-color: rgba(210, 105, 30, 0.404);*/
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-text{
+    width: 50%;
+    height: 100%;
+    /*background-color: cornflowerblue;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner-text h1{
+    font-size: 4.62em;
+}
+
+.banner-text p{
+    font-size: 1.60em;
+    margin-top: 0.8em;
+}
+
+.banner-text a{
+    color: white;
+    font-size: 1.87em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--red);
+    padding: 0.5em 1.2em;
+    border-radius: 0.75em;
+    margin-top: 2em;
+}
+
+.games{
+    width: 100%;
+    height: 7.5em;
+    /*background-color: crimson;*/
+   
+}
+.games ul{
+    width: 100%;
+    /*background-color: yellow;*/
+    list-style-type: none;
+}
+
+.games img{
+    width: 170px;
+}
+
+.games ul a:hover img{
+    /*width: 230px;*/
+    transition: 0.5s;
+    transform: scale(1.2);
+}
 
 
 /*até 1199px*/
