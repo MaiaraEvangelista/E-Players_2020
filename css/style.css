@@ -150,6 +150,13 @@ body{
     transform: scale(1.2);
 }
 
+.about{
+    height: 31.25em;
+    background-color: var(--blue);
+}
+
+
+
 
 /*até 1199px*/
 @media screen and (max-width: 74.93em){
