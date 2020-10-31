@@ -19,21 +19,22 @@
 body{
     height: 80px;
     font-size: 16px;
-    background-color: black;
+    background-color:var(--background);
     font-family: var(--font);
-   
+}
+img{
+    width: 100%;
 }
 
 .header-top{
-    font-size: 40px;
-    width: 1366px;
-    height: 2em;
-    background-color:black;
+    width: 100%;
+    height: 90px;
+    background-color: yellow;
 }
 
 .content{
-    width: 90%;
-    max-width: 75em;
+    width: 100%;
+    max-width: 80em;
     height: 100%;
     /*background-color: aqua;*/
     margin: auto;
@@ -41,38 +42,35 @@ body{
 
 .flex-spbt-center{
     display: flex;
-    justify-content: space-around;
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-top img{
-    width: 70%;
     max-width: 21.18em;
 }
 
 .menu{
-   width: 100%;
-   max-width: 50em;
-   height: 50;
+    width: 100%;
+    max-width: 54em;
 }
 
 .menu ul{
     list-style-type: none;
-    padding-left: 08px;
+    
 }
 
 .menu a{
     color: white;
-    font-size: 16px;
-    text-decoration:none;
-    text-transform:uppercase;
-    padding:10px 50px;  
-    justify-content: flex-end;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 1.10em 0.4em;
+    /*background-color: violet;*/
 }
 
 .menu a:hover{
     background-color: var(--red);
-    text-shadow: 0 0 20px white;
     text-decoration: underline;
 }
 
@@ -83,38 +81,40 @@ body{
 .banner-container{
     width: 100%;
     height: 37.5em;
-    /*background-color: rgba(127, 255, 212, 0.308);*/
+    /*background-color: rgba(238, 130, 238, 0.479);*/
     position: absolute;
-    top: 0%;
+    top: 0;
 }
 
 .banner-content{
-    width: 95%;
+    width: 90%;
     height: 100%;
-    /*background-color: rgba(210, 105, 30, 0.404);*/
+    /*background-color: rgba(153, 205, 50, 0.411);*/
     margin: auto;
     display: flex;
     justify-content: flex-end;
 }
 
 .banner-text{
-    width: 50%;
+    width: 60%;
     height: 100%;
-    /*background-color: cornflowerblue;*/
+    /*background-color: rgba(165, 42, 42, 0.397);*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
+    
 }
 
 .banner-text h1{
-    font-size: 4.62em;
+    font-size: 3.82em;
+    
 }
 
 .banner-text p{
-    font-size: 1.60em;
-    margin-top: 0.8em;
+    font-size: 1.40em;
+    margin-top: 0.80em;
 }
 
 .banner-text a{
@@ -124,40 +124,84 @@ body{
     text-transform: uppercase;
     background-color: var(--red);
     padding: 0.5em 1.2em;
-    border-radius: 0.75em;
-    margin-top: 2em;
+    border-radius: 10px;
+    margin-top: 1.08em;
 }
 
 .games{
     width: 100%;
     height: 7.5em;
-    /*background-color: crimson;*/
-   
+    /*background-color: yellow;*/
+    padding-top: 1em;
 }
 .games ul{
-    width: 100%;
-    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2em 0em;
+    /*background-color: var(--red);*/
     list-style-type: none;
-}
-
-.games img{
-    width: 170px;
+  
 }
 
 .games ul a:hover img{
-    /*width: 230px;*/
     transition: 0.5s;
     transform: scale(1.2);
 }
 
 .about{
+    width: 100%;
     height: 31.25em;
     background-color: var(--blue);
+    position: relative;
 }
 
+.about-angulation{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
 
+.angulation{
+    width: 100%;
+    height: 24.125em;
+    background-color: var(--background);
+   
+    transform: skewY(-3deg);
+}
 
+.container-about{
+    color: white;
+   position: absolute;
+   top: 0;
+}
 
+.content-about{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-about{
+    width: 50%;
+    text-align: justify;
+}
+
+.text-about h2{
+    margin-bottom: 1em;
+    font-size: 2.1875em;
+}
+
+.text-about p{
+    font-size: 1.25em;
+}
+
+.content-about img{
+    max-width: 31.875em;
+}
 /*até 1199px*/
 @media screen and (max-width: 74.93em){
 
