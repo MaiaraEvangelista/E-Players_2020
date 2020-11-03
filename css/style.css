@@ -173,16 +173,16 @@ img{
 
 .container-about{
     color: white;
-   position: absolute;
-   top: 0;
+    position: absolute;
+    top: 0;
 }
 
 .content-about{
-  width: 80%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .text-about{
@@ -207,7 +207,8 @@ img{
     content: '';
     border: solid 1px #ffffff;
     height: 2.5em;
-    margin-left: 1em;
+    margin-left: 3em;
+    margin-right: 1em;
 }
 
 .games-aovivo, .games-embreve{
@@ -216,10 +217,15 @@ img{
     align-items: center;
     font-size: 1.875em;
     justify-content: space-between;
+    
+}
+
+.partida h3{
+    color: red;
 }
 
 .partida{
-    width: 9.5em;
+    width: 9.8em;
     display: flex;
     align-items: center;
     /*background-color: var(--red);*/
@@ -244,6 +250,71 @@ img{
     margin-right: 0.5em;
 }
 
+/*section-news*/
+
+.noticias{
+    width: 100%;
+    height: 200.25em;
+    background-color: #1E1C21;
+}
+
+
+.noticias h2{
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 35px;
+    padding-left: 0px;
+    margin-left: 10%;
+    margin-top: 1px;
+}
+
+.content-noticias{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+}
+
+.noticias-n{
+    width: 80%;
+}
+
+.bloco-noticias{
+    width: 90%;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.noticias-blocos{
+    width: 17.81em;
+    height: 27.87em;
+    box-shadow: 3px 3px 20px 4px #000000;
+    background: Linear-gradient( #000000  0%, rgba(83, 83, 83, 0.5774) 25%,rgba(196, 196, 196, 0) 87.5%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    
+}
+
+.text-bloco{
+    color: white;
+    margin: 10px;
+    margin-top: 1em;
+}
+
+.text-bloco h3{
+    font-family: 18px;
+    text-transform: uppercase;
+    margin-left: 2em;
+    
+}
+
+.text-bloco p{
+    margin-top: 1em;
+}
+
 /*até 1199px*/
 @media screen and (max-width: 74.93em){
 
@@ -260,6 +331,7 @@ img{
 }
 
 /*até 576*/
+
 @media screen and (max-width: 36em){
     
 }
