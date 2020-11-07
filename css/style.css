@@ -364,8 +364,8 @@ img{
 }
 
 /*até 1199px*/
-@media screen and (max-width: 74.93em){
-
+@media only screen and (max-width: 74.93em){
+    
 }
 
 /*até 991*/

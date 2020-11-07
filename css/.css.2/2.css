@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2? family = Titillium + Web: wght @ 400; 700 & display = swap');
+
+:root{
+    --background: #000000 ;
+    --background: #1E1C21;
+    --red: #C20000;
+    --blue: #001F70;
+    --gradient: Linear-gradient( #000000  0%, rgba(83, 83, 83, 0.5774) 25%,rgba(196, 196, 196, 0) 87.5%);
+
+    --font:'Titillium Web', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 70px;
+    font-size: 14px;
+    background-color:var(--background);
+    font-family: var(--font);
+}
+img{
+    width: 1199px;
+}
+
+.header-top{
+    max-width: 90%;
+    width: 80%;
+    height:70px ;
+    background-color: brown;
+
+}
+
+.content{
+
+}
+
+.flex-spbt-center{
+
+}
+
+.header-top img{
+
+}
+
+.menu{
+
+}
+
+.menu ul{
+
+}
+
+.menu a{
+
+}
+
+.menu a:hover{
+
+}
+
+.banner{
+
+}
+
+.banner-container{
+
+}
+
+.banner-content{
+
+}
+
+.banner-text{
+
+}
+
+.banner-text h1{
+
+}
+
+.banner-text p{
+
+}
+
+.banner-text a{
+
+}
+
+.games{
+
+}
+
+.games ul{
+
+}
+
+.games ul a:hover img{
+
+}
+
+.about{
+
+}
+
+.about-angulation{
+
+}
+
+.angulation{
+
+}
+
+.container-about{
+
+}
+
+.content-about{
+
+}
+
+.text-about{
+
+}
+
+.text-about h2{
+
+}
+
+.text-about p{
+
+}
+
+.content-about img{
+
+}
+
+.games-aovivo, .games-embreve{
+
+}
+
+.partida h3{
+
+}
+
+.partida{
+
+}
+
+.time1, .time2{
+
+}
+
+.partida img{
+
+}
+
+.time1 img{
+
+}
+
+.time2 img{
+
+}
